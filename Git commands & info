@@ -17,3 +17,4 @@ Fork vs clone (difference):
 you clone when you just want a local copy on your machine, usually you do this only
 you fork when you want a seperate copy of the project on your local machine but after fixing the code or making any changes you want to publish in your name
 
+I am trying to access git from windows machine via kali linux on virtualBox
