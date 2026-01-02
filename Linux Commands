@@ -2,6 +2,7 @@ pwd - print working directory - tell you the current directory
 ls - list - list the contents of the current directory
 cd - change directory - to go inside a directory be specifying the directory name
 cd\ - takes you to your home directory in terminal
+cd~ - takes you to your home directory in terminal
 cd / - takes you to the root folder
 cd .. - this command take you back one directory, like the back button in windows
 cat - open a file right in terminal, only you have to specify the file name (which is case-sensitive), if you are already in the directory go right ahead and type cat and filename but you can also specify the path and filename and open a file right there in terminal without actually navigating to the folder in which the file resides (if a file name has space in it, for eg: 'Linux Commands', then the command would be "cat Linux\ Commands")
