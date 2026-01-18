@@ -1,4 +1,4 @@
-git clone https://github.com/dushyant99/Linux -- This clones the repo who want, in your local system, has to be done only the 1st time or if you are updating the local project after a long time (and there are many changes already made in the git project, say by someone else and you want those changes in your local project)
+git clone https://github.com/dushyant99/Linux -- This clones the repo you want, in your local system, has to be done only the 1st time or if you are updating the local project after a long time (and there are many changes already made in the git project, say by someone else and you want those changes in your local project)
 git status -- Tells you what files you edited, staged or ready to commit, basically it's your dashboard
 git add Linux\ Commands or git add . -- adds your edited files into the "to be saved" area
 git commit -m "Whatever msg you want to convey here, may be telling your future one what changes you made here in this version"
