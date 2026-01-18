@@ -3,7 +3,7 @@ git status -- Tells you what files you edited, staged or ready to commit, basica
 git add Linux\ Commands or git add . -- adds your edited files into the "to be saved" area
 git commit -m "Whatever msg you want to convey here, may be telling your future one what changes you made here in this version"
 git push -- upload your commits to your online repo
-
+After the git push command, Git authentication would be required, enter your github credentials, username : dushyant99 and passwd : Git personal access token key.
 All these commands are what you need on a daily basis from git:
 clone once
 status always
@@ -14,5 +14,5 @@ push to share
 If you want to know how to undo any mistakes, please refer chatgpt for it, the command is git restore but with a few variations.
 
 Fork vs clone (difference):
-you clone when you just want a local copy on your machine, usually you do this only
+you clone when you just want a local copy on your machine, usually you do this only once at the start, like with "librepods" project, to install you clone the designated repo once.
 you fork when you want a seperate copy of the project on your local machine but after fixing the code or making any changes you want to publish in your name
