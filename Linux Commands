@@ -2,7 +2,7 @@ pwd - print working directory - tell you the current directory
 ls - list - list the contents of the current directory
 cd - change directory - to go inside a directory be specifying the directory name
 cd\ - takes you to your home directory in terminal
-cd~ - takes you to your home directory in terminal
+cd ~ - takes you to your home directory in terminal
 cd / - takes you to the root folder
 cd .. - this command take you back one directory, like the back button in windows
 cat - open a file right in terminal, only you have to specify the file name (which is case-sensitive), if you are already in the directory go right ahead and type cat and filename but you can also specify the path and filename and open a file right there in terminal without actually navigating to the folder in which the file resides (if a file name has space in it, for eg: 'Linux Commands', then the command would be "cat Linux\ Commands")
@@ -15,7 +15,7 @@ sudo - gives you administrative access for one command
 ps - process status - it will list the processes running in the linux
 su root -- access root account after giving password
 exit -- to come out of the root access
-man "command name" -- eg: uname ls --this will tell you all about the command you want to know along with the necessary arguments if available. This is basically the help command of linux
+man "command name" -- eg: uname ls --this will tell you all about the command you want to know along with the necessary arguments if available. This is basically the help command of linux (this is usually the better command than --help, since the 1st information is always displayed on top)
 "command name" --help -- another way to ask for help (sometimes -h is also there). eg: ls --help or ls -h
 uname -- prints system information, use various attributes of it to get the information you need
 apropos "discription of what you want to do" -- lists all the commands with the task at hand that you have discribed -- eg: apropos usb - this lists all the commands concerning to usb or apropos mount - mount based commands
