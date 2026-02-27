@@ -2,7 +2,7 @@ pwd - print working directory - tell you the current directory
 ls - list - list the contents of the current directory
 cd - change directory - to go inside a directory be specifying the directory name
 cd\ - takes you to your home directory in terminal
-cd ~ - takes you to your home directory in terminal
+cd ~ - takes you to your home directory in terminal (this is the better command than 'cd\')
 cd / - takes you to the root folder
 cd .. - this command take you back one directory, like the back button in windows
 cat - open a file right in terminal, only you have to specify the file name (which is case-sensitive), if you are already in the directory go right ahead and type cat and filename but you can also specify the path and filename and open a file right there in terminal without actually navigating to the folder in which the file resides (if a file name has space in it, for eg: 'Linux Commands', then the command would be "cat Linux\ Commands")
@@ -19,3 +19,6 @@ man "command name" -- eg: uname ls --this will tell you all about the command yo
 "command name" --help -- another way to ask for help (sometimes -h is also there). eg: ls --help or ls -h
 uname -- prints system information, use various attributes of it to get the information you need
 apropos "discription of what you want to do" -- lists all the commands with the task at hand that you have discribed -- eg: apropos usb - this lists all the commands concerning to usb or apropos mount - mount based commands
+tree -- I can see the directoy structure where I am at the moment
+mkdir-- Make new folder/directory
+rmdir-- remove folder/directory
